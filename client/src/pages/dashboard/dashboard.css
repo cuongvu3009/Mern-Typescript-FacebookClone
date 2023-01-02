@@ -1,0 +1,42 @@
+.dashboardContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.dLeft {
+  align-self: start;
+}
+
+.dRight {
+  align-self: start;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #999;
+  margin: 10px 0;
+}
+
+.dUL {
+}
+
+.dLi {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
