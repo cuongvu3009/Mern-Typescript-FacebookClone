@@ -37,7 +37,7 @@ const signup = async (
 }
 
 const login = async (
-  req: Request<string, any, LoginBody>,
+  req: Request<object, object, LoginBody>,
   res: Response,
   next: NextFunction
 ) => {
