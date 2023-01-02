@@ -35,7 +35,9 @@
     "morgan": "^1.10.0",
     "path": "^0.12.7",
     "winston": "^3.8.2",
-    "xss-clean": "^0.1.1"
+    "xss-clean": "^0.1.1",
+    "zod": "^3.20.2",
+    "zod-express-middleware": "^1.4.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -44,6 +46,7 @@
     "@types/cors": "^2.8.13",
     "@types/errorhandler": "^1.5.0",
     "@types/eslint": "^8.4.10",
+    "@types/jsonwebtoken": "^9.0.0",
     "@types/lusca": "^1.7.1",
     "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.4",
