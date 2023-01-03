@@ -30,7 +30,7 @@ export const registerSchema = {
     })
       .min(6, 'Password must be at least 6 characters long')
       .max(64, 'Password should not be longer than 64 characters'),
-  }),
+  }).required(),
 }
 
 export type LoginBody = TypeOf<typeof loginSchema.body>

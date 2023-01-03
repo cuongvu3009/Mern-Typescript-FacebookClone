@@ -7,6 +7,7 @@ import apiErrorHandler from './middlewares/apiErrorHandler'
 import apiContentType from './middlewares/apiContentType'
 import compression from 'compression'
 import cors from 'cors'
+import cookieParser from 'cookie-parser'
 
 const corsOptions = {
   origin: '*',
@@ -24,6 +25,7 @@ app.set('port', process.env.PORT || 1234)
 app.use(apiContentType)
 // Use common 3rd-party middlewares
 app.use(compression())
+app.use(cookieParser())
 app.use(express.json())
 app.use(lusca.xframe('SAMEORIGIN'))
 app.use(lusca.xssProtection(true))
